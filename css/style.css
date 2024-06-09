@@ -1,0 +1,115 @@
+body {
+  font-family: serif;
+  background: #f7f7f7;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: grid;
+  background: #fff;
+  border-radius: 4px;
+}
+
+/* css resert */
+h3, h4, p, a {
+  margin: 0px;
+}
+
+.titulo {
+  color: #99c7c5;
+}
+
+.description {
+  color: #cede86;
+
+}
+
+.descricao-final {
+  color: #cdd2d7;
+  max-width: 70ch;
+}
+
+.descricao {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+}
+
+.card-preco {
+  background: #2bb3b1;
+}
+
+.card-preco h4 {
+  color: #bfecf0;
+}
+
+.preco {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #d2ffff;
+  margin-right: 20px;
+}
+
+.card span {
+  text-align: center;
+  color: #d2ffff;
+}
+
+
+.full {
+  color: #bfecf0;
+}
+
+.card-preco a {
+  display: block;
+  text-decoration: none;
+  background: #bfdf32;
+  width: 150px;
+  border-radius: 3px;
+  padding: 10px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.card-preco {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 0px 0px 0px 4px;
+}
+
+.card-descricao {
+  background: #4abebd;
+  padding: 20px;
+  border-radius: 0px 0px 4px 0px;
+}
+
+.card-descricao h4 {
+  color: #d6ffff;
+}
+
+.card-descricao p {
+  color: #8edfe0;
+}
+
+/* responsivo */
+@media (max-width: 474px) {
+  .container {
+    grid-template-columns: 1fr;
+    margin-top: 0px;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+  }
+}
