@@ -72,12 +72,12 @@ h3, h4, p, a {
 .card-preco a {
   display: block;
   text-decoration: none;
-  background: #bfdf32;
+  background: #caf;
   width: 150px;
   border-radius: 3px;
   padding: 10px 20px;
   text-align: center;
-  color: #fff;
+  color: #103;
 }
 
 .card-preco {
